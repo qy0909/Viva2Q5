@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package viva2;
 
+import java.util.Scanner;
 public class FreshMart {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);  // Create a Scanner object for user input
