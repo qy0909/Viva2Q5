@@ -3,7 +3,7 @@ package viva2;
 import java.util.Scanner;
 public class FreshMart {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);  // Create a Scanner object for user input
+        Scanner in = new Scanner(System.in);  
 
         // Arrays to store available fruits, their storage quantities, and prices per unit
         String[] fruits = {"Apple", "Grape", "Banana", "Mango", "Orange", "Strawberry", "Blueberry"};  
@@ -13,7 +13,6 @@ public class FreshMart {
         // Display available fruits to the user
         printFruit(fruits);  
 
-        // Prompt the user to select a fruit and enter the desired quantity
         System.out.print("Please enter the fruit you want to buy: ");  
         String fruitSelect = in.nextLine();  
 
