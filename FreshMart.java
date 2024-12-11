@@ -59,7 +59,7 @@ public class FreshMart {
     
     // Checks if there is enough stock for the selected fruit
     public static boolean haveStock(int fruitIdx, int[] storage, int quantity){
-        return storage[fruitIdx] >= quantity; // Returns true if stock is sufficient
+        return storage[fruitIdx] >= quantity && quantity>=0; // Returns true if stock is sufficient
     }
     
     // Generates and prints the bill 
